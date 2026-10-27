@@ -1,0 +1,17 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.1.1, pluggy-1.7.0 -- C:\Users\elian\AppData\Local\Python\pythoncore-3.14-64\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\elian\Desktop\Trabalho testes unitarios
+plugins: anyio-4.13.0
+collecting ... collected 8 items
+
+tests/test_pedido.py::test_calcula_total_de_varios_itens PASSED          [ 12%]
+tests/test_pedido.py::test_retorna_zero_quando_lista_esta_vazia PASSED   [ 25%]
+tests/test_pedido.py::test_rejeita_item_com_preco_zero PASSED            [ 37%]
+tests/test_pedido.py::test_rejeita_item_com_quantidade_zero PASSED       [ 50%]
+tests/test_pedido.py::test_cobra_taxa_inicial_ate_3_km PASSED            [ 62%]
+tests/test_pedido.py::test_cobra_adicional_por_km_excedente PASSED       [ 75%]
+tests/test_pedido.py::test_entrega_gratis_para_pedido_a_partir_de_100 PASSED [ 87%]
+tests/test_pedido.py::test_rejeita_distancia_negativa PASSED             [100%]
+
+============================== 8 passed in 0.06s ==============================
